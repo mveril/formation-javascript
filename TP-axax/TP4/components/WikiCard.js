@@ -26,7 +26,7 @@ function CardBody(item) {
 function WikiLink(item) {
   const itemLink = document.createElement("a");
   itemLink.classList.add("btn", "btn-primary");
-  itemLink.innerText = "Go to Wikipedia";
+  itemLink.innerText = "Aller sur wikipedia";
   const url=getWikiPageUrl(item.pageid);
   itemLink.href = url.toString();
   return itemLink;
